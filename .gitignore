@@ -1,0 +1,42 @@
+# Ignore the entire .idea directory
+.idea/
+
+# Except for the following files and directories
+!.idea/misc.xml
+!.idea/modules.xml
+!.idea/vcs.xml
+!.idea/encodings.xml
+!.idea/workspace.xml
+!.idea/runConfigurations/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+!.idea/libraries/
+!.idea/profile_settings.xml
+
+# Ignore user-specific configuration files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/usage.statistics.xml
+
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Ignore other common files
+.DS_Store
+*.log
+*.sqlite3
+*.env
